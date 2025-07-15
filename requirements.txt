@@ -1,0 +1,26 @@
+# Core LangChain dependencies
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.12
+
+# Hugging Face dependencies (compatible versions)
+transformers>=4.30.0
+torch>=2.0.0
+sentence-transformers>=2.2.0
+huggingface-hub>=0.15.0,<0.20.0
+langchainhub>=0.1.21
+
+# Vector store and search
+faiss-cpu==1.7.4
+tavily-python==0.3.3
+
+# Web scraping
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Additional utilities
+numpy>=1.21.0
+tiktoken==0.5.2
